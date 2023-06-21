@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+/* FONTES
+Poppins Bold (font-weight: 700;)
+
+Poppins Medium (font-weight: 500;)
+
+Poppins Regular (font-weight: 400;)
+
+Poppins Light (font-weight: 300;)
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/*nav ===============================================================================================*/
+
+nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav div.fortes_logo {
+  width: 200px;
+  height: 100%;
+  display: flex;
+}
+
+nav div.fortes_logo img {
+  width: 100%;
+  object-fit: contain;
+}
+
+
+nav div#menu {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav div#menu ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav div#menu ul li {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+nav div#menu ul li:last-child {
+  border-bottom: 3px solid #05cb96;
+}
+
+nav div#menu ul li a {
+  color: black;
+  transition: 0.2s;
+}
+
+nav div#menu ul li a:hover {
+  color: #05cb96;
+}
+
+
+/*fim do nav =======================================================================================*/
+
+
+
+
+main {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#icons{
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+  width: 98%;
+}
+
+#icons img{
+  height: 40px;
+  margin: 5px;
+}
+
+#head{
+    display: flex;
+    justify-content: space-between;
+}
+
+#head h1{
+    align-self: flex-start;
+    margin-left: 240px;
+}
+
+#head button{
+    align-self: flex-end;
+    margin-right: 200px;
+    width: 170px;
+    height: 70px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #05CB96;
+    background-color: white;
+    border-radius: 15px;
+    border-color: #05CB96;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#head button:hover{
+    background-color: #05CB96;
+    color: white;
+}
+
+#head button a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+#head button:hover a {
+    color: #fff;
+  }
+
+#bio{
+  width: 60px;
+  margin-left: 228px;
+}
+
+#bio h1{
+    font-size: 30px;
+  font-weight: 300;
+}
+
+#textbox1{
+  background-color:#1E73BE;
+  border-radius: 5px;
+  width: 650px;
+  height: 205px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  vertical-align:middle;
+}
+
+#textbox2{
+  background-color: #1E73BE;
+  border-radius: 20px;
+  width: 650px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  vertical-align:middle;
+}
+
+#hsh2{
+  width: 571px;
+  color: white;
+}
+
+#textbox3{
+  background-color:#1E73BE;
+  border-radius: 20px;
+  width: 650px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  vertical-align:middle;
+}
+
+#ssh3{
+  width: 571px;
+  color: white;
+}
+
+#innerbox1{
+  width: 645px;
+  height: 200px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+#innerbox2{
+    width: 571px;
+    height: 165px;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  #innerbox3{
+    width: 571px;
+    height: 165px;
+    background-color: white;
+    border-radius: 10px
+  }
+
+#innerbox1 p{
+  margin-left: 20px;
+  margin-top: 20px;
+  color: grey;
+  
+}
+
+#upcontent{
+    display: flex;
+    flex-direction: column;
+}
+
+#downcontent{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  vertical-align: middle;
+}
+
+#hard{
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#soft{
+  width: 40%;
+}
+
+
+
+/*footer ===========================================================================================*/
+
+footer {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  bottom: 0px;
+  background-color: #F0F0F1;
+
+}
+
+footer div.fortes_logo {
+  width: 200px;
+  height: 100%;
+  display: flex;
+}
+
+footer div.fortes_logo img {
+  width: 100%;
+  object-fit: contain;
+}
+
+footer #listas {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+footer #listas ul li {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+footer #linkedin_logo {
+  width: 200px;
+  height: 100%;
+  display: flex;
+}
+
+footer #linkedin_logo img {
+  width: 100%;
+  object-fit: contain;
+}
+/*fim do footer ====================================================================================*/
